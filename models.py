@@ -1,4 +1,5 @@
 # Implementation of TLS SM-based classification model and other models for comparison.
+# The original implementation for the two following models is in https://github.com/WSPTTH/MaMPF/blob/master/Markov/models.py
 
 import numpy as np
 import GraphKernel.Markov as MK

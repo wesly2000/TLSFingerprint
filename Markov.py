@@ -1,6 +1,7 @@
 # coding: utf-8
 import numpy as np
-
+# Modified implementation for Markov Chain based classifier and MaMPF.
+# The original codebase is in https://github.com/WSPTTH/MaMPF/blob/master/Markov/markov.py
 
 class Markov(object):
     def __init__(self, data, order=1):

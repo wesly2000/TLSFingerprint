@@ -4,6 +4,11 @@ from .algorithm import dirac_kernel, brownian_kernel
 from itertools import product
 import numpy as np
 
+'''
+This file is my implementation, which is unfortunately much slower than that of GraKeL. So this file is for 
+understanding my idea only. To use the algorithm in the paper, please install GraKeL:)
+'''
+
 class ShortestPath(Kernel):
     def __init__(self, node_metric='dirac', edge_metric='dirac', normalizer=3.0):
         '''
